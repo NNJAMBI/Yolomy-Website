@@ -276,12 +276,15 @@ fieldset p {
     text-align: center;
 }
 
-.hero {
-    background-image: url('../assets/backgrounds/about.jpg');
+.hero{
+    background-image: url('../assets\backgrounds\About-Us.jpg');
     background-size: 100% 100%;
+    text-align: center;
     padding: 5%;
-    color: white;
-    font-size: 25px;
+     color: white;
+     font-size:25px;
+ }
+
 }
 
 .twitter {
