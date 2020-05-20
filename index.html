@@ -6,130 +6,150 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <title>Yolomy Website</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link href="css\bootstrap.css" rel="stylesheet" type="text/css">
-    <link href="css/styles.css" rel="stylesheet" type="text/css">
-    <script src="js/scripts.js"></script>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
+    <link href="./css/styles.css" rel="stylesheet" type="text/css">
+    <script src="./js/scripts.js"></script>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+
 
 </head>
+
 <body>
     <header>
 
-    <div class="topnav" Id="mytopnav">
-       <a href="#" class="active">
-        <img src="assets\logo\logo.png" </a>
-        <div class="inactive">
-          <a href="#">Home</a>
-          <a href="#contact">Products</a>
-          <a href="#"><img src="assets\logo\shop.png" alt="shop"></a>
-          <a href="javascript:void(0);" class="icon" onclick="myFunction()">
-          <i class="fa fa-bars"></i>
-            </a>       
+        <div class="topnav" Id="mytopnav">
+            <a href="#" class="active">
+                <img src="assets\logo\logo.png"></a>
+            <div class="inactive">
+                <a href="#">Home</a>
+                <a href="#contact">Products</a>
+                <a href="#"><img src="assets\logo\shop.png" alt="shop"></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                    <i class="fa fa-bars"></i>
+                </a>
 
+            </div>
         </div>
-    </div>
-    <div class="header">
+        <div class="header">
 
-        <h1>Our clothing, your comfort</h1>
-        <p>We understand that you need to look good and feel great.<br> It all starts with what you are wearing</p>
-    </div>
-    <img id="mouse_click" src="assets\mouse_click.png" alt="mouse_click">
-    
+            <h1>Our clothing, your comfort</h1>
+            <p>We understand that you need to look good and feel great.<br> It all starts with what you are wearing</p>
+        </div>
+        <img id="mouse_click" src="assets\mouse_click.png" alt="mouse_click">
+
     </header>
 
-    <div class="check">
-        <label class="container">MEN
-          <input type="checkbox" checked="checked">
-          <span class="checkmark"></span>
-        </label>
+    <!-- start clothes categories -->
+    <section>
+        <div class="check">
+            <label class="container">MEN
+                <input type="checkbox" checked="checked">
+                <span class="checkmark"></span>
+            </label>
 
-        <label class="container">WOMEN
-          <input type="checkbox" checked>
-          <span class="checkmark"></span>  
-        </label>
- 
-        <label class="container">CHILDREN
-           <input type="checkbox">
-           <span class="checkmark"></span>
-        </label>
-        <button class="button">SEE ALL PRODUCTS</button>
+            <label class="container">WOMEN
+                <input type="checkbox" checked>
+                <span class="checkmark"></span>
+            </label>
+
+            <label class="container">CHILDREN
+                <input type="checkbox">
+                <span class="checkmark"></span>
+            </label>
+            <button class="button">SEE ALL PRODUCTS</button>
+        </div>
+
+    </section>
+    <!-- end clothes categories -->
+
+    <!-- start Men -->
+    <section>
+        <div class="products">
+            <div id="line">
+                <p>MEN
+                    <hr>
+                </p>
+
+            </div>
+
+        </div>
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\tshirt-men.png" alt="T-shirt">
+            <P>T-SHIRT</P>
+        </div>
+
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\pants.png" alt="Pants">
+            <p>PANTS FORCLAZ</p>
+        </div>
+
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\backpack.png" alt="backpack">
+            <p>BACKPACK</p>
+        </div>
+
+    </section>
+    <!-- end men -->
+
+    <!-- start women -->
+    <section>
+        <div class="products">
+            <div id="line">
+                <p>WOMEN
+                    <hr>
+                </p>
+
+            </div>
+
+        </div>
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\giacket.png" alt="GIACKET">
+            <P>GIACKET</P>
+        </div>
+
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\trekkingshoes.png" alt="TREKKING SHOES">
+            <p>TREKKING SHOES</p>
+        </div>
+
+        <div class="products">
+            <p>SIZE</p>
+            <img src="assets\products\tshirt_ladies.png" alt="T-SHIRT">
+            <p>T-SHIRT</p>
+        </div>
+    </section>
+    <!-- end women -->
+
+
+    <div class="hero">
+        <fieldset>
+            <legend>ABOUT US</legend>
+            <p>This is where high-fashion clothing is <br>designed and crafted from the heart by <br> an amazing team of
+                craftsmen and <br> designers who understand what fashion <br> is. </p>
+        </fieldset>
+
     </div>
 
-    <div class="products">
-      <div id="line">
-          <p>MEN
-              <hr>
-          </p>
-
-      </div>
-
-    </div>
-<div class="products">
-    <p>SIZE</p>
-    <img src="assets\products\tshirt-men.png" alt="T-shirt">
-    <P>T-SHIRT</P>
-</div>
-
-<div class="products">
-    <p>SIZE</p>
-    <img src="assets\products\pants.png" alt="Pants">
-    <p>PANTS FORCLAZ</p>
-</div>
-
-<div class="products">
-    <p>SIZE</p>
-    <img src="assets\products\backpack.png" alt="backpack">
-    <p>BACKPACK</p>
-</div>
-
-<div class="products">
-    <div id="line">
-        <p>WOMEN
-            <hr>
-        </p>
-
+    <div class="twitter">
+        <p><img src="assets\social_icons\twitter_bird.png" alt="Twitter-bird"> "SALE:Buy anything for 45% off. Use the
+            promo CODE YOLOMY45 when you buy items"</p>
     </div>
 
-  </div>
-<div class="products">
-  <p>SIZE</p>
-  <img src="assets\products\giacket.png" alt="GIACKET">
-  <P>GIACKET</P>
-</div>
-
-<div class="products">
-  <p>SIZE</p>
-  <img src="assets\products\trekkingshoes.png" alt="TREKKING SHOES">
-  <p>TREKKING SHOES</p>
-</div>
-
-<div class="products">
-  <p>SIZE</p>
-  <img src="assets\products\tshirt_ladies.png" alt="T-SHIRT">
-  <p>T-SHIRT</p>
-</div>
-
-<div class="hero">
-    <fieldset>
-        <legend>ABOUT US</legend>
-        <a href="#"><img src="assets\backgrounds\About-Us.jpg" alt="shop"></a>
-        <p>This is where high-fashion clothing is <br>designed and crafted from the heart by <br> an amazing team of craftsmen and <br> designers who understand what fashion <br> is. </p>
-    </fieldset>
-
-</div>
-
-<div class="twitter">
-    <p><img src="assets\social_icons\twitter_bird.png" alt="Twitter-bird">  "SALE:Buy anything for 45% off. Use the promo CODE YOLOMY45 when you buy items"</p>
-</div>
-
-<footer>
-    <div class="column">
-        <h1>YOLOMY</h1>
-        <h6>WE ARE YOLOMY-WE UNDERSTAND <br> FASHION AND STYLE. WE CRAFT OUR <br> PRODUCTS WITH LOVE AND DILIGENCE.</h6>
-    </div>
-<div class="column">
-    <h3>WE ARE SOCIAL</h3>
-    <img src="assets/social_icons/g_plus.png" alt="g_plus">
+    <footer>
+        <div class="column">
+            <h1>YOLOMY</h1>
+            <h6>WE ARE YOLOMY-WE UNDERSTAND <br> FASHION AND STYLE. WE CRAFT OUR <br> PRODUCTS WITH LOVE AND DILIGENCE.
+            </h6>
+        </div>
+        <div class="column">
+            <h3>WE ARE SOCIAL</h3>
+            <img src="assets/social_icons/g_plus.png" alt="g_plus">
             <img src="assets/social_icons/facebook.png" alt="facebook">
             <img src="assets/social_icons/you_tube.png" alt="youtube">
             <img src="assets/social_icons/stumble_upon.png" alt="stumble_upon"><br>
@@ -137,17 +157,18 @@
             <img src="assets/social_icons/flickr.png" alt="flickr">
             <img src="assets/social_icons/twitter.png" alt="Twitter">
             <img src="assets/social_icons/pinterest.png" alt="pinterest"><br><br> COPYRIGHT 2015. YOLOMY INC
-    
-</div>
-<div class="column">
-    <p>CREDIT | PRIVACY | ABOUT | CONTACT</p>
 
-    <p>Yolomy: We mean Fashion</p>
+        </div>
+        <div class="column">
+            <p>CREDIT | PRIVACY | ABOUT | CONTACT</p>
 
-</div>
+            <p>Yolomy: We mean Fashion</p>
 
-</footer>
+        </div>
+
+    </footer>
 
 
 </body>
+
 </html>
