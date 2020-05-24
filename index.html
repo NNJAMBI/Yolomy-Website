@@ -9,8 +9,8 @@
     <link href="./css/bootstrap.css" rel="stylesheet" type="text/css">
     <link href="./css/styles.css" rel="stylesheet" type="text/css">
     <script src="./js/scripts.js"></script>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
-        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
 
 
 </head>
@@ -41,19 +41,20 @@
     </header>
 
     <!-- start clothes categories -->
+
     <section>
         <div class="check">
-            <label class="container">MEN
+            <label class="container-label">MEN
                 <input type="checkbox" checked="checked">
                 <span class="checkmark"></span>
             </label>
 
-            <label class="container">WOMEN
+            <label class="container-label">WOMEN
                 <input type="checkbox" checked>
                 <span class="checkmark"></span>
             </label>
 
-            <label class="container">CHILDREN
+            <label class="container-label">CHILDREN
                 <input type="checkbox">
                 <span class="checkmark"></span>
             </label>
@@ -64,8 +65,8 @@
     <!-- end clothes categories -->
 
     <!-- start Men -->
-    <section>
-        <div class="products">
+    <section class="men">
+        <div class="container">
             <div id="line">
                 <p>MEN
                     <hr>
@@ -74,22 +75,24 @@
             </div>
 
         </div>
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\tshirt-men.png" alt="T-shirt">
-            <P>T-SHIRT</P>
-        </div>
+        <div class="container">
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\tshirt-men.png" alt="T-shirt">
+                <P>T-SHIRT</P>
+            </div>
 
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\pants.png" alt="Pants">
-            <p>PANTS FORCLAZ</p>
-        </div>
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\pants.png" alt="Pants">
+                <p>PANTS FORCLAZ</p>
+            </div>
 
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\backpack.png" alt="backpack">
-            <p>BACKPACK</p>
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\backpack.png" alt="backpack">
+                <p>BACKPACK</p>
+            </div>
         </div>
 
     </section>
@@ -97,44 +100,50 @@
 
     <!-- start women -->
     <section>
-        <div class="products">
+        <div class="container">
             <div id="line">
-                <p>WOMEN
-                    <hr>
-                </p>
+                <p> <hr>WOMEN</p>
 
             </div>
 
         </div>
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\giacket.png" alt="GIACKET">
-            <P>GIACKET</P>
+        <div class="container">
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\giacket.png" alt="GIACKET">
+                <P>GIACKET</P>
+            </div>
+
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\trekkingshoes.png" alt="TREKKING SHOES">
+                <p>TREKKING SHOES</p>
+            </div>
+
+            <div class="products">
+                <p>SIZE</p>
+                <img src="assets\products\tshirt_ladies.png" alt="T-SHIRT">
+                <p>T-SHIRT</p>
+            </div>
         </div>
 
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\trekkingshoes.png" alt="TREKKING SHOES">
-            <p>TREKKING SHOES</p>
-        </div>
-
-        <div class="products">
-            <p>SIZE</p>
-            <img src="assets\products\tshirt_ladies.png" alt="T-SHIRT">
-            <p>T-SHIRT</p>
-        </div>
     </section>
     <!-- end women -->
 
+    <!-- sart About us -->
+    <section>
+        <div class="hero">
+            <fieldset>
+                <legend>ABOUT US</legend>
+                <p>This is where high-fashion clothing is <br>designed and crafted from the heart by <br> an amazing
+                    team of
+                    craftsmen and <br> designers who understand what fashion <br> is. </p>
+            </fieldset>
 
-    <div class="hero">
-        <fieldset>
-            <legend>ABOUT US</legend>
-            <p>This is where high-fashion clothing is <br>designed and crafted from the heart by <br> an amazing team of
-                craftsmen and <br> designers who understand what fashion <br> is. </p>
-        </fieldset>
+        </div>
+    </section>
+    <!-- end About us  -->
 
-    </div>
 
     <div class="twitter">
         <p><img src="assets\social_icons\twitter_bird.png" alt="Twitter-bird"> "SALE:Buy anything for 45% off. Use the

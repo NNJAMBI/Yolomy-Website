@@ -297,7 +297,7 @@ textarea {
 }
 
 fieldset {
-  min-width: 0;
+  min-width: 2px;
   padding: 0;
   margin: 0;
   border: 0;
@@ -305,7 +305,6 @@ fieldset {
 
 legend {
   display: block;
-  width: 100%;
   max-width: 100%;
   padding: 0;
   margin-bottom: .5rem;
